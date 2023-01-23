@@ -28,6 +28,24 @@ const DUMMY_EXPENSES = [
     amount: 378.99,
     date: new Date(2022, 5, 12),
   },
+  {
+    id: 'e6',
+    title: 'Rug',
+    amount: 433.19,
+    date: new Date(2022, 5, 16),
+  },
+  {
+    id: 'e7',
+    title: 'Painting',
+    amount: 468.89,
+    date: new Date(2022, 2, 12),
+  },
+  {
+    id: 'e8',
+    title: 'LG Monitor',
+    amount: 299.87,
+    date: new Date(2022, 3, 12),
+  },
 ];
 
 
