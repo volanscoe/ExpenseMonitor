@@ -46,6 +46,12 @@ const DUMMY_EXPENSES = [
     amount: 299.87,
     date: new Date(2022, 3, 12),
   },
+  {
+    id: 'e9',
+    title: 'KVM Switch',
+    amount: 59.47,
+    date: new Date(2022, 4, 5),
+  },
 ];
 
 
