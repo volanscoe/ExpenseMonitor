@@ -52,6 +52,18 @@ const DUMMY_EXPENSES = [
     amount: 59.47,
     date: new Date(2022, 4, 5),
   },
+  {
+    id: 'e10',
+    title: 'Logitech Mouse',
+    amount: 39.47,
+    date: new Date(2019, 4, 5),
+  },
+  {
+    id: 'e11',
+    title: 'Logitech Keyboard',
+    amount: 139.99,
+    date: new Date(2019, 7, 9),
+  },
 ];
 
 
