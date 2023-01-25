@@ -64,6 +64,12 @@ const DUMMY_EXPENSES = [
     amount: 139.99,
     date: new Date(2019, 7, 9),
   },
+  {
+    id: 'e12',
+    title: 'Apple Keyboard',
+    amount: 239.99,
+    date: new Date(2022, 7, 9),
+  }, 
 ];
 
 
