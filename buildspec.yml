@@ -11,5 +11,5 @@ phases:
   
   post_build:
     commands:
-      - aws s3 cp --recursive ./build s3://$WEBSITE_BUCKET_NAME/
+      - aws s3 cp --recursive ./build s3://${WEBSITE_BUCKET_NAME}/
       # - aws cloudfront create-invalidation --distribution-id E3I1XNMUPGTK9K --path /\*
