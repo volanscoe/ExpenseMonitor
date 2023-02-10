@@ -11,8 +11,8 @@ phases:
       - echo 'TEST'
       - echo env.$WEBSITE_BUCKET_NAME
       - echo env.$TEST_VARIABLE
-      - echo 'Another'
-      - echo env.${$TEST_VARIABLE}
+      - echo $WEBSITE_BUCKET_NAME
+
   
   post_build:
     commands:
