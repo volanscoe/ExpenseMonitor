@@ -8,12 +8,12 @@ phases:
   build:
     commands:
       - npm run build
-      - echo ${WEBSITE_BUCKET_NAME}
+      - echo ${env.WEBSITE_BUCKET_NAME}
       - echo 'TEST'
-      - echo $WEBSITE_BUCKET_NAME
-      - echo $TEST_VARIABLE
+      - echo $env.WEBSITE_BUCKET_NAME
+      - echo env.$TEST_VARIABLE
       - echo 'Another'
-      - echo ${$TEST_VARIABLE}
+      - echo env.${$TEST_VARIABLE}
   
   post_build:
     commands:
